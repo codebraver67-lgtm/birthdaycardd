@@ -1,0 +1,12 @@
+.open-card{
+   animation-name: flip;
+   animation-duration: 3s;
+}
+
+@keyframes flip{
+    from{transform: rotate(0)}
+    to { transform: rotateY(90deg); }
+}
+#outside, #inside {
+  backface-visibility: hidden;
+}
